@@ -1,0 +1,5 @@
+<?php
+require("Mailer/KonoValidateMailer.php");
+$m = new KonoValidateMailer();
+$m->GmailSend("testing email", "ian.chen@thekono.com","This is a testing!");
+?>
