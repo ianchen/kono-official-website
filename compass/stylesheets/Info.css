@@ -1,0 +1,580 @@
+@charset "UTF-8";
+/* line 63, ../sass/Info.scss */
+img {
+  border: 0;
+}
+
+/* line 68, ../sass/Info.scss */
+body {
+  margin: 0px;
+  background-image: url("../images/new_icon/bg_square.jpg");
+  background-attachment: fixed;
+  width: 100%;
+}
+
+/* line 75, ../sass/Info.scss */
+.top-bar {
+  z-index: 99;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 70px;
+  width: 100%;
+  background-image: url("../images/header.png");
+  background-repeat: repeat-x;
+}
+/* line 86, ../sass/Info.scss */
+.top-bar .nav-btn-area {
+  width: 1084px;
+  height: 70px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 92, ../sass/Info.scss */
+.top-bar .nav-btn-area ul {
+  margin-top: 0px;
+  margin-left: 450px;
+  list-style-type: none;
+  width: 560px;
+  height: 70px;
+}
+/* line 99, ../sass/Info.scss */
+.top-bar .nav-btn-area ul li {
+  width: 140px;
+  height: 70px;
+  float: left;
+}
+/* line 105, ../sass/Info.scss */
+.top-bar .nav-btn-area #nav-logo {
+  position: fixed;
+  height: 93px;
+  width: 191px;
+  margin-left: 100px;
+  background-image: url("../images/logo.png");
+}
+/* line 113, ../sass/Info.scss */
+.top-bar .nav-btn-area .logo-mouseout {
+  top: -5px;
+}
+/* line 117, ../sass/Info.scss */
+.top-bar .nav-btn-area #nav-aboutkono {
+  background-image: url("../images/buttons/about.jpg");
+}
+/* line 121, ../sass/Info.scss */
+.top-bar .nav-btn-area #nav-team {
+  background-image: url("../images/buttons/team.jpg");
+}
+/* line 125, ../sass/Info.scss */
+.top-bar .nav-btn-area #nav-jobs {
+  background-image: url("../images/buttons/jobs.jpg");
+}
+/* line 129, ../sass/Info.scss */
+.top-bar .nav-btn-area #nav-contact {
+  background-image: url("../images/buttons/contact.jpg");
+}
+/* line 133, ../sass/Info.scss */
+.top-bar .nav-btn-area .nav-mousein {
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+/* line 139, ../sass/Info.scss */
+.tree-parent {
+  width: 100%;
+  position: fixed;
+  z-index: -100;
+}
+/* line 144, ../sass/Info.scss */
+.tree-parent .tree {
+  margin: 150px auto 0;
+  width: 1190px;
+  height: 320px;
+  background-image: url("../images/new_icon/trees.png");
+}
+
+/* line 152, ../sass/Info.scss */
+.shadow {
+  position: fixed;
+  float: left;
+  margin-top: 110px;
+  margin-left: 0px;
+  height: 373px;
+  width: 100%;
+  background-image: url("../images/new_icon/tree_shadow.png");
+  background-repeat: repeat-x;
+  z-index: -90;
+}
+
+/* line 165, ../sass/Info.scss */
+.content {
+  margin-top: 100px;
+  position: relative;
+  width: 984px;
+  margin: 0 auto;
+}
+/* line 176, ../sass/Info.scss */
+.content .content-title {
+  width: 874px;
+  height: 73px;
+  margin: 30px auto;
+}
+/* line 180, ../sass/Info.scss */
+.content #content-logo {
+  padding-top: 400px;
+  width: 1084px;
+  width: 984px;
+  height: 0px;
+}
+/* line 185, ../sass/Info.scss */
+.content #content-logo .ipad {
+  float: left;
+  width: 513px;
+  height: 751px;
+  margin-left: 70px;
+  margin-top: -303px;
+  background-image: url("../images/logo/ipad.png");
+}
+/* line 194, ../sass/Info.scss */
+.content #content-logo .logo-description {
+  float: left;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: -303px;
+}
+/* line 200, ../sass/Info.scss */
+.content #content-logo .logo-description .logo-title {
+  width: 307px;
+  height: 111px;
+  margin-top: 25px;
+  background-image: url("../images/logo/title.png");
+}
+/* line 207, ../sass/Info.scss */
+.content #content-logo .logo-description .app-store {
+  width: 308px;
+  height: 89px;
+  margin-top: 30px;
+}
+/* line 213, ../sass/Info.scss */
+.content #content-logo .logo-description .app-store img {
+  margin-left: 24px;
+}
+/* line 218, ../sass/Info.scss */
+.content #content-logo .logo-description .prompt {
+  margin-top: 60px;
+  width: 308px;
+}
+/* line 222, ../sass/Info.scss */
+.content #content-logo .logo-description .prompt .prompt-text {
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 14px;
+  color: #6d695b;
+  text-shadow: 2px 2px white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+/* line 232, ../sass/Info.scss */
+.content #content-logo .logo-description .social {
+  width: 300px;
+  margin: 0 auto;
+}
+/* line 236, ../sass/Info.scss */
+.content #content-logo .logo-description .social ul {
+  padding: 0;
+  list-style-type: none;
+  height: 30px;
+  margin-top: 30px;
+}
+/* line 242, ../sass/Info.scss */
+.content #content-logo .logo-description .social ul li {
+  float: left;
+}
+/* line 246, ../sass/Info.scss */
+.content #content-logo .logo-description .social ul .logo-twitter {
+  margin-left: 7px;
+  margin-right: 20px;
+}
+/* line 253, ../sass/Info.scss */
+.content #content-logo .logo-description .cut {
+  width: 340px;
+  margin: 0 auto;
+}
+/* line 257, ../sass/Info.scss */
+.content #content-logo .logo-description .cut ul {
+  padding: 0;
+  list-style-type: none;
+  height: 30px;
+}
+/* line 262, ../sass/Info.scss */
+.content #content-logo .logo-description .cut ul li {
+  float: left;
+}
+/* line 266, ../sass/Info.scss */
+.content #content-logo .logo-description .cut ul .line {
+  width: 131px;
+  height: 2px;
+  margin-top: 14px;
+  background-image: url("../images/logo/line.png");
+}
+/* line 273, ../sass/Info.scss */
+.content #content-logo .logo-description .cut ul .or {
+  margin: 0 10px;
+  margin-top: 5px;
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  color: #6d695b;
+  text-shadow: 2px 2px white;
+  text-align: center;
+}
+/* line 284, ../sass/Info.scss */
+.content #content-logo .logo-description .subscribe {
+  width: 500px;
+}
+/* line 287, ../sass/Info.scss */
+.content #content-logo .logo-description .subscribe ul {
+  padding: 0;
+  list-style-type: none;
+  height: 30px;
+}
+/* line 292, ../sass/Info.scss */
+.content #content-logo .logo-description .subscribe ul li {
+  float: left;
+}
+/* line 295, ../sass/Info.scss */
+.content #content-logo .logo-description .subscribe ul li input {
+  padding-left: 15px;
+  width: 280px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 17px;
+  color: #cccccc;
+}
+/* line 307, ../sass/Info.scss */
+.content #content-logo .logo-description .subscribe ul .subscribe-send-top {
+  width: 37px;
+  height: 45px;
+  background-image: url("../images/logo/submit.png");
+  margin-left: 2px;
+}
+/* line 316, ../sass/Info.scss */
+.content #content-logo .logo-description .logo-device {
+  margin-left: 12px;
+  margin-top: 60px;
+  width: 288px;
+  height: 76px;
+  background-image: url("../images/logo/coming_soon.png");
+}
+/* line 326, ../sass/Info.scss */
+.content #content-team {
+  padding-top: 400px;
+  width: 1084px;
+  padding-bottom: 80px;
+}
+/* line 330, ../sass/Info.scss */
+.content #content-team .content-title {
+  background-image: url("../images/new_icon/team_title.png");
+}
+/* line 334, ../sass/Info.scss */
+.content #content-team .team-photo {
+  overflow: hidden;
+  width: 880px;
+  height: 176px;
+  margin: 30px auto;
+}
+/* line 340, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  width: 1540px;
+  height: 220px;
+}
+/* line 347, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list li {
+  width: 176px;
+  height: 176px;
+  float: left;
+  background-size: cover;
+}
+/* line 354, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #stanley {
+  background-image: url("../images/team/stanley.jpg");
+}
+/* line 358, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #bobby {
+  background-image: url("../images/team/bobby.jpg");
+}
+/* line 362, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #kevin {
+  background-image: url("../images/team/kevin.jpg");
+}
+/* line 366, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #sammy {
+  background-image: url("../images/team/sammy.jpg");
+}
+/* line 370, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #julia {
+  background-image: url("../images/team/julia.jpg");
+}
+/* line 374, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #avatar {
+  background-image: url("../images/team/avatar.png");
+}
+/* line 378, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #ian {
+  background-image: url("../images/team/ian.jpeg");
+}
+/* line 382, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #neo {
+  background-image: url("../images/team/neo.jpg");
+}
+/* line 386, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #boyu {
+  background-image: url("../images/team/boyu.jpg");
+}
+/* line 390, ../sass/Info.scss */
+.content #content-team .team-photo .team-photo-list #pinko {
+  background-image: url("../images/team/pinko.jpg");
+}
+/* line 395, ../sass/Info.scss */
+.content #content-team .team-photo .photo-left {
+  margin-top: -115px;
+  width: 39px;
+  height: 37px;
+  background: url(../images/team/controls.png) top left no-repeat;
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 403, ../sass/Info.scss */
+.content #content-team .team-photo .photo-right {
+  margin-top: -37px;
+  margin-left: 840px;
+  width: 39px;
+  height: 37px;
+  background: url(../images/team/controls.png) top right no-repeat;
+}
+/* line 411, ../sass/Info.scss */
+.content #content-team .team-photo .photo-arrow-mouseout {
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 415, ../sass/Info.scss */
+.content #content-team .team-photo .photo-arrow-mousein {
+  opacity: 0.9;
+  -moz-opacity: 0.9;
+  -khtml-opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+/* line 420, ../sass/Info.scss */
+.content #content-team .team-description {
+  margin: 0px auto;
+  width: 880px;
+}
+/* line 424, ../sass/Info.scss */
+.content #content-team .team-description p {
+  margin-left: 0px;
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 14px;
+  text-align: left;
+}
+/* line 433, ../sass/Info.scss */
+.content #content-jobs {
+  padding-top: 400px;
+  width: 1084px;
+  margin-top: -460px;
+}
+/* line 437, ../sass/Info.scss */
+.content #content-jobs .content-title {
+  background-image: url("../images/new_icon/jobs_title.png");
+}
+/* line 441, ../sass/Info.scss */
+.content #content-jobs .jobs-description {
+  margin: 0px auto;
+  width: 880px;
+}
+/* line 445, ../sass/Info.scss */
+.content #content-jobs .jobs-description p {
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 14px;
+}
+/* line 451, ../sass/Info.scss */
+.content #content-jobs .front-end-title {
+  margin-left: 125px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 298px;
+  height: 33px;
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 30px;
+}
+/* line 464, ../sass/Info.scss */
+.content #content-jobs .front-end-detail {
+  margin-left: 125px;
+  font-size: 20px;
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+}
+/* line 471, ../sass/Info.scss */
+.content #content-jobs .front-end-detail .front-end-job-content ul {
+  font-size: 14px;
+  width: 760px;
+  line-height: 20px;
+  list-style-type: circle;
+}
+/* line 51, ../sass/Info.scss */
+.content #content-jobs .front-end-detail .front-end-job-content ul li {
+  margin-bottom: 20px;
+}
+/* line 54, ../sass/Info.scss */
+.content #content-jobs .front-end-detail .front-end-job-content ul li span {
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 15px;
+}
+/* line 479, ../sass/Info.scss */
+.content #content-jobs .front-end-detail .front-end-job-condition ul {
+  width: 760px;
+  line-height: 20px;
+  list-style-type: circle;
+}
+/* line 51, ../sass/Info.scss */
+.content #content-jobs .front-end-detail .front-end-job-condition ul li {
+  margin-bottom: 20px;
+}
+/* line 54, ../sass/Info.scss */
+.content #content-jobs .front-end-detail .front-end-job-condition ul li span {
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 15px;
+}
+/* line 486, ../sass/Info.scss */
+.content #content-jobs .jobs-bottom {
+  margin-left: 1px;
+  width: 1084px;
+  height: 84px;
+}
+
+/* line 498, ../sass/Info.scss */
+.contact {
+  margin: 0 auto;
+  background-image: url("../images/new_icon/bg_bottom.jpg");
+}
+/* line 502, ../sass/Info.scss */
+.contact .contact-body {
+  margin: 0 auto;
+  text-align: middle;
+  height: 220px;
+  width: 984px;
+}
+/* line 507, ../sass/Info.scss */
+.contact .contact-body div {
+  float: left;
+}
+/* line 512, ../sass/Info.scss */
+.contact .contact-body .contact-info {
+  margin-left: 100px;
+}
+/* line 515, ../sass/Info.scss */
+.contact .contact-body .contact-info ul {
+  list-style-type: none;
+  width: 260px;
+}
+/* line 519, ../sass/Info.scss */
+.contact .contact-body .contact-info ul li {
+  line-height: 16px;
+  margin-top: 15px;
+}
+/* line 523, ../sass/Info.scss */
+.contact .contact-body .contact-info ul li img {
+  position: relative;
+  top: 3px;
+}
+/* line 527, ../sass/Info.scss */
+.contact .contact-body .contact-info ul li .address-img {
+  float: left;
+}
+/* line 531, ../sass/Info.scss */
+.contact .contact-body .contact-info ul li span, .contact .contact-body .contact-info ul li a {
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 14px;
+  color: white;
+  margin-left: 5px;
+}
+/* line 538, ../sass/Info.scss */
+.contact .contact-body .contact-info ul li .address-div {
+  color: white;
+  line-height: 20px;
+  position: relative;
+  top: -12px;
+  left: 25px;
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 14px;
+}
+/* line 553, ../sass/Info.scss */
+.contact .contact-body .other-links {
+  position: relative;
+  top: 0px;
+  height: 30px;
+}
+/* line 558, ../sass/Info.scss */
+.contact .contact-body .other-links ul {
+  list-style-type: none;
+}
+/* line 561, ../sass/Info.scss */
+.contact .contact-body .other-links ul li {
+  width: 50px;
+  float: left;
+}
+/* line 569, ../sass/Info.scss */
+.contact .contact-body .subscribe {
+  width: 330px;
+  height: 180px;
+}
+/* line 573, ../sass/Info.scss */
+.contact .contact-body .subscribe ul {
+  padding: 0;
+  list-style-type: none;
+  height: 25px;
+}
+/* line 578, ../sass/Info.scss */
+.contact .contact-body .subscribe ul li {
+  float: left;
+}
+/* line 581, ../sass/Info.scss */
+.contact .contact-body .subscribe ul li input {
+  padding-left: 29px;
+  margin-left: 36px;
+  width: 220px;
+  height: 26px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+  font-size: 13px;
+  color: #cccccc;
+}
+/* line 594, ../sass/Info.scss */
+.contact .contact-body .subscribe ul .subscribe-send-bottom {
+  width: 37px;
+  height: 70%;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+/* line 604, ../sass/Info.scss */
+.contact .contact-body .footer {
+  margin: auto;
+  position: relative;
+  margin-bottom: 2px;
+  width: 960px;
+  text-align: right;
+  color: white;
+  font-size: 10px;
+  font-family: "儷黑Pro", "LiHei Pro", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei";
+}
+/* line 614, ../sass/Info.scss */
+.contact .contact-body .footer a {
+  color: white;
+}

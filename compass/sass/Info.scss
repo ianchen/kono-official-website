@@ -32,8 +32,8 @@
 @mixin content_default
 {
   padding-top: 400px;
-  //background-image: url("../img/new_icon/bg_square.jpg");
-  //background-image: url("../img/bg.jpg");
+  //background-image: url("../images/new_icon/bg_square.jpg");
+  //background-image: url("../images/bg.jpg");
   width: 1084px;
 }
 @mixin content_title
@@ -57,13 +57,17 @@
 
       font-size: 15px;
     }
-
   }
 }
+img
+{
+  border: 0;
+}
+
 body
 {
   margin: 0px;
-  background-image: url("../img/new_icon/bg_square.jpg");
+  background-image: url("../images/new_icon/bg_square.jpg");
   background-attachment: fixed;
   width: 100%;
 }
@@ -72,18 +76,21 @@ body
   z-index: 99;
   padding: 0px;
   position: fixed;
+  top: 0px;
+  left: 0px;
   height: 70px;
   width: 100%;
-  background-image: url("../img/header.png");
+  background-image: url("../images/header.png");
   background-repeat: repeat-x;
   .nav-btn-area
   {
     width: 1084px;
     height: 70px;
     margin: 0 auto;
-    margin-top: -16px;
+    overflow: hidden;
     ul
     {
+      margin-top: 0px;
       margin-left: 450px;
       list-style-type:none;
       width:560px; 
@@ -100,7 +107,7 @@ body
       height: 93px;
       width: 191px;
       margin-left: 100px;
-      background-image: url("../img/logo.png");
+      background-image: url("../images/logo.png");
     }
     .logo-mouseout
     {
@@ -108,19 +115,19 @@ body
     }
     #nav-aboutkono
     {
-      background-image: url("../img/buttons/about.jpg");
+      background-image: url("../images/buttons/about.jpg");
     }
     #nav-team
     {
-      background-image: url("../img/buttons/team.jpg");
+      background-image: url("../images/buttons/team.jpg");
     }
     #nav-jobs
     {
-      background-image: url("../img/buttons/jobs.jpg");
+      background-image: url("../images/buttons/jobs.jpg");
     }
     #nav-contact
     {
-      background-image: url("../img/buttons/contact.jpg");
+      background-image: url("../images/buttons/contact.jpg");
     }
     .nav-mousein
     {
@@ -138,7 +145,7 @@ body
     margin: 150px auto 0;
     width: 1190px;
     height: 320px;
-    background-image: url("../img/new_icon/trees.png");
+    background-image: url("../images/new_icon/trees.png");
   }
 }
 .shadow
@@ -149,14 +156,14 @@ body
   margin-left:0px;
   height: 373px;
   width:100%;
-  background-image: url("../img/new_icon/tree_shadow.png");
+  background-image: url("../images/new_icon/tree_shadow.png");
   background-repeat: repeat-x;
   z-index: -90;
 }
 
 .content
 {
-  //background-image: url("../img/new_icon/bg_square.jpg");
+  //background-image: url("../images/new_icon/bg_square.jpg");
   margin-top:100px; 
   position: relative;
   //margin-top: 70px;
@@ -181,7 +188,7 @@ body
       height: 751px;
       margin-left: 70px;
       margin-top: -303px;
-      background-image: url("../img/logo/ipad.png");
+      background-image: url("../images/logo/ipad.png");
     }
     .logo-description
     {
@@ -194,7 +201,7 @@ body
         width: 307px;
         height: 111px;
         margin-top: 25px;
-        background-image: url("../img/logo/title.png");
+        background-image: url("../images/logo/title.png");
       }
       .app-store
       {
@@ -260,7 +267,7 @@ body
             width: 131px;
             height: 2px;
             margin-top: 14px;
-            background-image: url("../img/logo/line.png");
+            background-image: url("../images/logo/line.png");
           }
           .or
           {
@@ -275,6 +282,7 @@ body
       }
       .subscribe
       {
+        width: 500px;
         ul
         {
           padding: 0;
@@ -299,7 +307,7 @@ body
           {
             width: 37px;
             height: 45px;
-            background-image: url("../img/logo/submit.png");
+            background-image: url("../images/logo/submit.png");
             margin-left: 2px;
           }
         }
@@ -310,7 +318,7 @@ body
         margin-top: 60px;
         width: 288px;
         height: 76px;
-        background-image: url("../img/logo/coming_soon.png");
+        background-image: url("../images/logo/coming_soon.png");
       }
     }
   }
@@ -320,13 +328,13 @@ body
     padding-bottom: 80px;
     .content-title
     {
-      background-image: url("../img/new_icon/team_title.png");
+      background-image: url("../images/new_icon/team_title.png");
     }
     .team-photo
     {
       overflow: hidden;
       width: 880px;
-      height: 220px;
+      height: 176px;
       margin: 30px auto;
       .team-photo-list
       {
@@ -337,49 +345,50 @@ body
         height: 220px; 
         li
         {
-          width: 220px;
-          height: 220px;
+          width: 176px;
+          height: 176px;
           float: left;
+          background-size:cover;
         }
         #stanley
         {
-          background-image: url("../img/team/stanley.jpg");
+          background-image: url("../images/team/stanley.jpg"); 
         }
         #bobby
         {
-          background-image: url("../img/team/bobby.jpg");
+          background-image: url("../images/team/bobby.jpg");
         }
         #kevin
         {
-          background-image: url("../img/team/kevin.jpg");
+          background-image: url("../images/team/kevin.jpg");
         }
         #sammy
         {
-          background-image: url("../img/team/sammy.jpg");
+          background-image: url("../images/team/sammy.jpg");
         }
         #julia
         {
-          background-image: url("../img/team/julia.jpg");
+          background-image: url("../images/team/julia.jpg");
         }
         #avatar
         {
-          background-image: url("../img/team/avatar.png");
+          background-image: url("../images/team/avatar.png");
         }
         #ian
         {
-          background-image: url("../img/team/ian.jpeg");
+          background-image: url("../images/team/ian.jpeg");
         }
         #neo
         {
-          background-image: url("../img/team/neo.jpg");
+          background-image: url("../images/team/neo.jpg");
         }
         #boyu
         {
-          background-image: url("../img/team/boyu.jpg");
+          background-image: url("../images/team/boyu.jpg");
         }
         #pinko
         {
-          background-image: url("../img/team/pinko.jpg");
+          background-image: url("../images/team/pinko.jpg");
         }
       }
       .photo-left
@@ -387,7 +396,7 @@ body
         margin-top: -115px;
         width: 39px;
         height: 37px;
-        background: url(../img/team/controls.png) top left no-repeat;
+        background: url(../images/team/controls.png) top left no-repeat;
         @include arrow_opacity;
       }
       .photo-right
@@ -396,7 +405,7 @@ body
         margin-left: 840px;
         width: 39px;
         height: 37px;
-        background: url(../img/team/controls.png) top right no-repeat;
+        background: url(../images/team/controls.png) top right no-repeat;
       }
       .photo-arrow-mouseout
       {
@@ -426,7 +435,7 @@ body
     margin-top: -460px;
     .content-title
     {
-      background-image: url("../img/new_icon/jobs_title.png");
+      background-image: url("../images/new_icon/jobs_title.png");
     }
     .jobs-description
     {
@@ -449,7 +458,7 @@ body
       @include font_default;
       font-size: 30px;
 
-      //background-image: url("../img/jobs/front-end-developer.png");
+      //background-image: url("../images/jobs/front-end-developer.png");
     }
     .front-end-detail
     {
@@ -478,7 +487,7 @@ body
       margin-left: 1px;
       width: 1084px;
       height: 84px;
-      //background-image: url("../img/bg_bottom.jpg");
+      //background-image: url("../images/bg_bottom.jpg");
     }
   }
 
@@ -487,14 +496,12 @@ body
 
 .contact
 {
-   margin: 0 auto;
-  background-image: url("../img/new_icon/bg_bottom.jpg");  
+  margin: 0 auto;
+  background-image: url("../images/new_icon/bg_bottom.jpg");  
   .contact-body
   {
-    //left: 0px;
     margin:0 auto;
-    //    margin-top: 290px;
-    //    bottom:0px;
+    text-align:middle;
     height:220px;
     width: 984px;
     div{
@@ -503,24 +510,19 @@ body
     }
     .contact-info
     {
-      //margin-left:1000px;
+      margin-left:100px;
       ul
       {
         list-style-type: none;
-        //        margin-left: 570px;
-        //margin-top: -185px;
         width: 260px; 
-        //vertical-align:text-top;
         li
         {
           line-height:16px;
           margin-top: 15px;
-          // vertical-align:middle;
           img
           {
             position: relative;
             top:3px;
-            // vertical-align:middle; 
           }
           .address-img{
             float: left;
@@ -549,13 +551,11 @@ body
     }
     .other-links
     {
-      //      margin-left: 890px;
       position:relative;
       top:  0px;
       height:30px;
       ul
       {
-        //float:left;
         list-style-type: none;
         li
         {
@@ -567,13 +567,10 @@ body
     }
     .subscribe
     {
-      width:328px;
-      height:250px;
-      //z-index:12;
+      width: 330px;
+      height:180px;
       ul
       {
-        //        margin-top:20px;
-        //        margin-left:285px;
         padding: 0;
         list-style-type: none;
         height: 25px;
@@ -584,7 +581,7 @@ body
           {
             padding-left: 29px;
             margin-left:36px;
-            width: 250px;
+            width: 220px;
             height: 26px;
             border-radius: 5px;
             border: 1px solid #dddddd;
@@ -599,24 +596,23 @@ body
           //height: 45px;
           height:70%;
           margin-left: 5px;
-          margin-top:-3px;
+          margin-top:0px;
         }
       }
-      .footer
+    }
+    .footer
+    {
+      margin:auto;
+      position:relative;
+      margin-bottom:2px;
+      width:960px;
+      text-align:right;
+      color:white;
+      font-size:10px;
+      @include font_default;
+      a
       {
-        //margin-left:-400px;
-        position:relative;
-        //z-index:100;
-        margin-top:130px;
-        //width:400px;
-        text-align:right;
         color:white;
-        font-size:10px;
-        @include font_default;
-        a
-        {
-          color:white;
-        }
       }
     }
 
